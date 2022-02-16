@@ -61,7 +61,7 @@ include 'connect.php';
                   <h4>form todolist</h4>
                   <form method="POST">
                      <div class="form-group">
-                        <input type="text" class="form-control" name="job_name" placeholder="tulis tugasmu disini" required oninvalid="this.setCustomValidity('isi bidang ini')" oninput="this.setCustomValidity('')"/>
+                        <input type="text" class="form-control" name="job_name" placeholder="tulis tugasmu disini" required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')"/>
                      </div>
                      <div class="form-group d-grid mt-3">
                         <button class="btn btn-primary" name="send">tambah tugas</button>
