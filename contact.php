@@ -30,16 +30,16 @@ require 'connect.php';
                <div class="collapse navbar-collapse" id="navbarTop">
                   <ul class="navbar-nav ms-auto fixed">
                      <li class="nav-item menu">
-                        <a href="#" class="nav-link">tambah tugas</a>
+                        <a href="todo.php" class="nav-link">tambah tugas</a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link">riwayat tugas</a>
+                        <a href="history.php" class="nav-link">riwayat tugas</a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link">tentang kami</a>
+                        <a href="about.php" class="nav-link">tentang kami</a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link">kontak</a>
+                        <a href="contact.php" class="nav-link">kontak</a>
                      </li>
                   </ul>
                </div>
