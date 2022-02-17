@@ -48,7 +48,7 @@ require 'connect.php';
       </div>
    </section>
    <!-- END: Navigasi -->
-   <h2 class="text-center mt-5">kontak kami</h2>
+   <h2 class="text-center mt-5">tentang kami</h2>
    <div class="container">
    </div>
 
