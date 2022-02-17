@@ -68,7 +68,7 @@ include 'connect.php';
                      </div>
                   </form>
 
-                  <!-- START: List Tugas -->
+                  <!-- START: List Tugasmu -->
                   <div class="form-group mt-3">
                      <h4>list tugasmu</h4>
                      <ul class="list-group mt-3">
@@ -81,13 +81,11 @@ include 'connect.php';
                         </li>
                      </ul>
                   </div>
-                  <!-- END: List Tugas -->
+                  <!-- END: List Tugasmnu -->
                </div>
             </div>
          </div>
       </div>
-
-      <!-- START: Tambah Tugas -->
       <!-- END: Tambah Tugas -->
    </div>
 
