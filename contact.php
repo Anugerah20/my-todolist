@@ -48,8 +48,33 @@ require 'connect.php';
       </div>
    </section>
    <!-- END: Navigasi -->
-   <h2 class="text-center mt-5">kontak kami</h2>
+   <h2 class="text-center mt-5">kontak</h2>
    <div class="container">
+      <div class="row">
+         <div class="col-md-6 mx-auto mt-3">
+            <div class="card border-0 shadow-lg">
+               <div class="card-body">
+               <form action="">
+                  <div class="col-md-12 mx-auto mb-4">
+                     <label for="inputName" class="form-label">name</label>
+                     <input type="text" class="form-control" id="inputName">
+                  </div>
+                  <div class="col-md-12 mx-auto mb-4">
+                     <label for="inputEmail" class="form-label">email</label>
+                     <input type="email" class="form-control" id="inputEmail">
+                  </div>
+                  <div class="col-md-12 mx-auto mb-4">
+                     <label for="inputPassword" class="form-label">password</label>
+                     <input type="password" class="form-control" id="inputPassword">
+                  </div>
+                  <div class="d-grid">
+                     <button type="button" class="btn btn-primary">kirim</button>
+                  </div>
+               </form>
+               </div>
+            </div>
+         </div>
+      </div>
    </div>
 
    
