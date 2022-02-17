@@ -10,8 +10,10 @@ require 'connect.php';
    <title>TODO</title>
    <!-- Bootstrap 5 -->
    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-   <!-- CSS Custom -->
+   <!-- CSS todo -->
    <link rel="stylesheet" href="css/todo.css"/>
+   <!-- CSS about -->
+   <link rel="stylesheet" href="css/about.css"/>
 </head>
 <body>
    <!-- START: Navigasi -->
@@ -48,11 +50,26 @@ require 'connect.php';
       </div>
    </section>
    <!-- END: Navigasi -->
-   <h2 class="text-center mt-5">tentang kami</h2>
-   <div class="container">
-   
-   </div>
 
+   <!-- START: Tentang Kami -->
+   <div class="text-about">
+      <h2>tentang kami</h2>
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-8 mx-auto mt-3">
+            <div class="card shadow-lg border-0">
+               <div class="card-body">
+                  <h4 class="text-todo">todo web</h4>
+                  <div class="card-title">
+                     <p>todo web dibuat oleh <a href="https://instagram.com/anugerah_est/" target="_blank">nabil anugerah</a> tujuan saya membuat ini adalah untuk mempermudah anda dalam mencatat setiap aktifitas pekerjaan atau tugas anda supaya aktifitas anda terstruktur dengan baik.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- END: Tentang Kami -->
    
 <!-- JavaScript -->
 <script src="bootstrap/js/popper.min.js"></script>
