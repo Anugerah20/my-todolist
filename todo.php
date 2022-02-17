@@ -71,9 +71,9 @@ include 'connect.php';
                   <!-- START: List Tugasmu -->
                   <div class="form-group mt-3">
                      <h4>list tugasmu</h4>
-                     <ul class="list-group mt-3">
+                     <ul class="list-group mb-3">
                         <li class="list-group-item">
-                           Test
+                           Belajar masak
                         <div class="float-end">
                            <a href="#" class="mx-3">selesai</a>
                            <a href="#">hapus</a>
