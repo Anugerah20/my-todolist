@@ -1,0 +1,15 @@
+/* Tentang Kami */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-transform: capitalize;
+}
+.text-about {
+   text-align: center;
+   margin-top: 5rem;
+}
+
+.text-todo {
+   color: #1572A1;
+}
