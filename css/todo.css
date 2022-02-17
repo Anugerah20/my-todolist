@@ -91,7 +91,7 @@
 }
 
 /* Tambah tugas */
-.text-tambah {
+.text-tambah, .text-about {
    margin-top: 3rem;
    text-align: center;
 }
