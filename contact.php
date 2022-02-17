@@ -1,9 +1,7 @@
 <?php 
 require 'connect.php';
-require 'todo.php';
 ?>
 
-!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
