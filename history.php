@@ -57,11 +57,10 @@ require 'connect.php';
             <div class="card border-0 shadow-lg">
                <div class="card-body">
                <h4>riwayat tugas selesai</h4>
-               </div>
 
                <!-- START: List Selesai -->
-               <div class="form-group">
-                  <ul class="list-group">
+               <div class="form-group mt-3">
+                  <ul class="list-group mb-3">
                      <li class="list-group-item">
                         belajar masak
                         <div class="float-end">
@@ -73,8 +72,8 @@ require 'connect.php';
                   </ul>
                </div>
                <!-- END: List Selesai -->
-
             </div>
+           </div>
          </div>
       </div>
        <!-- START: Riwayat Tugas -->
