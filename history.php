@@ -60,6 +60,18 @@ require 'connect.php';
                </div>
 
                <!-- START: List Selesai -->
+               <div class="form-group">
+                  <ul class="list-group">
+                     <li class="list-group-item">
+                        belajar masak
+                        <div class="float-end">
+                           <div class="badge bg-primary">
+                              selesai
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
                <!-- END: List Selesai -->
 
             </div>
