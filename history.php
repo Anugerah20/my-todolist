@@ -48,8 +48,24 @@ require 'connect.php';
       </div>
    </section>
    <!-- END: Navigasi -->
+
+   <!-- START: Riwayat Tugas -->
    <h2 class="text-center mt-5">riwayat tugas</h2>
    <div class="container">
+      <div class="row">
+         <div class="col-md-8 mx-auto mt-3">
+            <div class="card border-0 shadow-lg">
+               <div class="card-body">
+               <h4>riwayat tugas selesai</h4>
+               </div>
+
+               <!-- START: List Selesai -->
+               <!-- END: List Selesai -->
+
+            </div>
+         </div>
+      </div>
+       <!-- START: Riwayat Tugas -->
    </div>
 
    
