@@ -62,7 +62,7 @@ require 'connect.php';
                <div class="card-body">
                   <h4 class="text-todo">todo web</h4>
                   <div class="card-title">
-                     <p class="text-link">todo web dibuat oleh <a href="https://instagram.com/anugerah_est/" target="_blank">nabil anugerah</a> tujuan saya membuat ini adalah untuk mempermudah anda dalam mencatat setiap aktifitas pekerjaan atau tugas anda supaya aktifitas anda terstruktur dengan baik.</p>
+                     <p class="text-link">todo web dibuat oleh <a href="https://instagram.com/anugerah_est/" target="_blank">nabil anugerah</a> tujuan saya membuat ini adalah untuk mempermudah anda dalam mencatat setiap aktifitas pekerjaan atau tugas anda supaya aktifitas anda dapat terstruktur dengan baik.</p>
                   </div>
                </div>
             </div>
