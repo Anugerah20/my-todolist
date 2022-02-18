@@ -61,14 +61,19 @@ require 'connect.php';
                <!-- START: List Selesai -->
                <div class="form-group mt-3">
                   <ul class="list-group mb-3">
+                     <?php
+                        $query = mysqli_query($connect, "SELECT * FROM jobs WHERE job_status = 'selesai' ");
+                        while($row = mysqli_fetch_array($query)) :
+                     ?>
                      <li class="list-group-item">
-                        belajar masak
+                        <?php echo $row['job_name'] ?>
                         <div class="float-end">
                            <div class="badge bg-primary">
-                              selesai
+                              <?php echo $row['job_status']; ?>
                            </div>
                         </div>
                      </li>
+                     <?php endwhile; ?>
                   </ul>
                </div>
                <!-- END: List Selesai -->
