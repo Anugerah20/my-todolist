@@ -1,6 +1,16 @@
 <?php 
 include 'connect.php';
+?>
 
+<?php 
+   // START: Tambah Tugas 
+   if(isset($_POST['send'])) {
+      $jobName = mysqli_real_escape_string($connect,$_POST['send']);
+      $query   = mysqli_query($connect, "INSERT INTO jobs (job_name, job_status, job_date)
+                  VALUES ('$job_name','pending',now()) ");
+      header("Location: todo.php");
+   }
+   // END: Tambah Tugas
 ?>
 
 <!DOCTYPE html>
