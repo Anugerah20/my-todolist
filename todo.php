@@ -20,6 +20,15 @@ include 'connect.php';
       header("Location: todo.php");
    }
    // END: Update List Pending Tugas
+
+   // START: Delete Tugas
+   if(isset($_GET['delete'])) {
+      $job_id = $_GET['delete'];
+      $query = mysqli_query($connect, "DELETE FROM jobs WHERE job_id = '$job_id' ");
+
+      header("Location: todo.php");
+   }
+   // END: Delete Tugas
 ?>
 
 <!DOCTYPE html>
