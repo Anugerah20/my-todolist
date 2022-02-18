@@ -14,6 +14,10 @@ include 'connect.php';
    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
    <!-- CSS Custom -->
    <link rel="stylesheet" href="css/todo.css"/>
+   <!-- Icon -->
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <!-- Icon 2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
    <!-- START: Navigasi -->
