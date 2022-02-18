@@ -79,8 +79,8 @@ include 'connect.php';
                         <li class="list-group-item">
                            Belajar masak
                         <div class="float-end">
-                           <a href="#" class="mx-3">selesai</a>
-                           <a href="#">hapus</a>
+                           <a href="#" class="mx-3 btn btn-success"><i class="bi bi-check2"></i></a>
+                           <a href="#" class="btn btn-danger"><i class="bi bi-trash3"></i></a>
                         </div>
                         </li>
                      </ul>
