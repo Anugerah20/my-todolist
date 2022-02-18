@@ -11,6 +11,15 @@ include 'connect.php';
       header("Location: todo.php");
    }
    // END: Tambah Tugas
+
+   // START: Update List Pending Tugas
+   if(isset($_GET['edit'])) {
+      $job_id = $_GET['edit'];
+      $query = mysqli_query($connect, "UPDATE jobs SET job_status='selesai' WHERE job_id='$job_id' ");
+
+      header("Location: todo.php");
+   }
+   // END: Update List Pending Tugas
 ?>
 
 <!DOCTYPE html>
@@ -86,13 +95,21 @@ include 'connect.php';
                   <div class="form-group mt-3">
                      <h4>list tugasmu</h4>
                      <ul class="list-group mb-3">
+                           <?php 
+                              $query = mysqli_query($connect, "SELECT * FROM jobs WHERE job_status = 'pending' ");
+                              while($row = mysqli_fetch_array($query)) :
+                                 $job_id = $row['job_id'];
+                                 $job_name = $row['job_name'];
+                           ?>
                         <li class="list-group-item">
-                           Belajar masak
+                           <?php echo $job_name; ?>
                         <div class="float-end">
-                           <a href="#" class="mx-3 btn btn-success"><i class="bi bi-check2"></i></a>
-                           <a href="#" class="btn btn-danger"><i class="bi bi-trash3"></i></a>
+                           <a href="todo.php?edit=<?= $job_id ?>" class="mx-3 btn btn-success"><i class="bi bi-check2"></i></a>
+                           <a href="todo.php?delete=<?= $job_id ?>" class="btn btn-danger"><i class="bi bi-trash3"></i></a>
                         </div>
                         </li>
+
+                        <?php endwhile; ?>
                      </ul>
                   </div>
                   <!-- END: List Tugasmnu -->
