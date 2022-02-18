@@ -62,7 +62,8 @@ require 'connect.php';
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputEmail" class="form-label">email</label>
-                     <input type="email" class="form-control" id="inputEmail">
+                     <input type="email" class="form-control" id="inputEmail" placeholder="input your email" 
+                     required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')">
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputPassword" class="form-label">password</label>
