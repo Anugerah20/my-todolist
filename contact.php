@@ -67,7 +67,8 @@ require 'connect.php';
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputPassword" class="form-label">password</label>
-                     <input type="password" class="form-control" id="inputPassword">
+                     <input type="password" class="form-control" id="inputPassword" placeholder="input your password" 
+                     required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')">
                   </div>
                   <div class="d-grid">
                      <button type="submit" name="send_massage" class="btn btn-primary">kirim</button>
