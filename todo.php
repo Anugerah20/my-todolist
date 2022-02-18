@@ -68,7 +68,7 @@ include 'connect.php';
                         <input type="text" class="form-control" name="job_name" placeholder="tulis tugasmu disini" required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')"/>
                      </div>
                      <div class="form-group d-grid mt-3">
-                        <button class="btn btn-primary" name="send">tambah tugas</button>
+                        <button class="btn btn-primary" name="send">Tambah Tugas</button>
                      </div>
                   </form>
 
