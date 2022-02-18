@@ -71,7 +71,7 @@ require 'connect.php';
                      required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')">
                   </div>
                   <div class="d-grid">
-                     <button type="submit" name="send_massage" class="btn btn-primary">kirim</button>
+                     <button type="button" name="send_massage" class="btn btn-primary">kirim</button>
                   </div>
                </form>
                </div>
