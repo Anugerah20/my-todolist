@@ -67,11 +67,13 @@ require 'connect.php';
                </div>
             </div>
          </div>
+         <!-- START: Footer -->
          <footer>
             <div class="footer text-center mt-5">
                <?php echo "dibuat dengan cinta oleh nabil - " . (int)date('Y') ?>
             </div>
          </footer>
+         <!-- END: Footer -->
       </div>
    </div>
    <!-- END: Tentang Kami -->
