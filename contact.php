@@ -16,6 +16,8 @@ require 'connect.php';
 <body>
    <!-- START: Navigasi -->
    <section class="nav">
+
+   <!-- START: Container -->
       <div class="container">
          <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -46,6 +48,7 @@ require 'connect.php';
             </div>
          </nav>
       </div>
+      <!-- END: Container -->
    </section>
    <!-- END: Navigasi -->
    <h2 class="text-center mt-5">kontak</h2>
