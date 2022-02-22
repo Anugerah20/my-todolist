@@ -49,6 +49,8 @@ require 'connect.php';
    </section>
    <!-- END: Navigasi -->
    <h2 class="text-center mt-5">kontak</h2>
+
+   <!-- START: Container -->
    <div class="container">
       <div class="row">
          <div class="col-md-6 mx-auto mt-3">
@@ -79,6 +81,7 @@ require 'connect.php';
          </div>
       </div>
    </div>
+   <!-- END: Container -->
 
    
 <!-- JavaScript -->
