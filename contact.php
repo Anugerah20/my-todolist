@@ -83,11 +83,13 @@ require 'connect.php';
             </div>
          </div>
 
+         <!-- START: Footer -->
          <footer>
             <div class="copyright text-center mt-5">
                <?php echo "dibuat dengan cinta oleh Nabil - " . (int)date('Y');?>
             </div>
          </footer>
+         <!-- END: Footer -->
       </div>
    </div>
    <!-- END: Container -->
