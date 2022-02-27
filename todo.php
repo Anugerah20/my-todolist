@@ -114,7 +114,7 @@ include 'connect.php';
                            <?php echo $job_name; ?>
                         <div class="float-end">
                            <a href="todo.php?edit=<?= $job_id ?>"class="mx-3 btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Tugas selesai"><i class="bi bi-check2"></i></a>
-                           <a href="todo.php?delete=<?= $job_id ?>" class="btn btn-danger"><i class="bi bi-trash3"></i></a>
+                           <a href="todo.php?delete=<?= $job_id ?>"class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Hapus tugas!"><i class="bi bi-trash3"></i></a>
                         </div>
                         </li>
 
