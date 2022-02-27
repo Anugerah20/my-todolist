@@ -72,7 +72,7 @@ require 'connect.php';
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputPassword" class="form-label">password</label>
-                     <input type="password" class="form-control" id="inputPassword" placeholder="input your password" 
+                     <input type="password" class="form-control" id="inputPassword" placeholder="isi password anda dengan benar" 
                      required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')">
                   </div>
                   <div class="d-grid">
