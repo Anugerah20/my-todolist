@@ -61,7 +61,7 @@ require 'connect.php';
                <div class="card-body">
                <form action="">
                   <div class="col-md-12 mx-auto mb-4">
-                     <label for="inputName" class="form-label">name</label>
+                     <label for="inputName" class="form-label">nama</label>
                      <input type="text" class="form-control" id="inputName" placeholder="isi nama lengkap anda" 
                      required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')">
                   </div>
