@@ -72,8 +72,7 @@ require 'connect.php';
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputPassword" class="form-label">password</label>
-                     <input type="password" class="form-control" id="inputPassword" placeholder="isi password anda dengan benar" 
-                     required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')">
+                     <textarea name="pesan" cols="10" rows="5" class="form-control" placeholder="message"></textarea>
                   </div>
                   <div class="d-grid">
                      <button type="button" name="send_massage" class="btn btn-primary">kirim</button>
