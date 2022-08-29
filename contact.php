@@ -72,10 +72,10 @@ require 'connect.php';
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputText" class="form-label">pesan</label>
-                     <textarea name="pesan" id="inputText" cols="10" rows="5" class="form-control" placeholder="pesan" require  oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')"></textarea>
+                     <textarea name="pesan" id="inputText" cols="10" rows="5" class="form-control" placeholder="pesan" required  oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')"></textarea>
                   </div>
                   <div class="d-grid">
-                     <button type="button" name="send_massage" class="btn btn-primary">kirim</button>
+                     <button type="submit" name="send_massage" class="btn btn-primary">kirim</button>
                   </div>
                </form>
                </div>
