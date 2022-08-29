@@ -84,7 +84,7 @@ require 'connect.php';
 
          <!-- START: Footer -->
          <footer>
-            <div class="copyright text-center mt-5">
+            <div class="copyright text-center mt-5 mb-4">
                <?php echo "dibuat dengan cinta oleh Nabil - " . (int)date('Y');?>
             </div>
          </footer>
