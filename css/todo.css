@@ -3,6 +3,7 @@
    padding: 0;
    box-sizing: border-box;
    text-transform: capitalize;
+   font-family: 'Inter', sans-serif;
 }
 
 /* Custom navigasi */
@@ -94,4 +95,8 @@
 .text-tambah, .text-about {
    margin-top: 3rem;
    text-align: center;
+}
+
+.text-tambah {
+   font-weight: 900;
 }
