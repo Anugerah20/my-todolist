@@ -62,7 +62,7 @@ require 'connect.php';
                <form action="">
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputName" class="form-label">nama</label>
-                     <input type="text" class="form-control" id="inputName" placeholder="isi nama lengkap anda" 
+                     <input type="text" class="form-control" id="inputName" placeholder="nama" 
                      required oninvalid="this.setCustomValidity('harap isi bidang ini')" oninput="this.setCustomValidity('')">
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
@@ -72,7 +72,7 @@ require 'connect.php';
                   </div>
                   <div class="col-md-12 mx-auto mb-4">
                      <label for="inputPassword" class="form-label">password</label>
-                     <textarea name="pesan" cols="10" rows="5" class="form-control" placeholder="message"></textarea>
+                     <textarea name="pesan" cols="10" rows="5" class="form-control" placeholder="pesan"></textarea>
                   </div>
                   <div class="d-grid">
                      <button type="button" name="send_massage" class="btn btn-primary">kirim</button>
